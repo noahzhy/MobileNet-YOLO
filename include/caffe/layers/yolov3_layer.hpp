@@ -56,6 +56,7 @@ public:
 	float noobject_scale_;
 	float coord_scale_;
 	float thresh_;
+	bool use_logic_gradient_;
 	vector<Dtype> biases_;
 	vector<Dtype> mask_;
 	Blob<Dtype> diff_;
